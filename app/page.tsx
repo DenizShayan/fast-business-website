@@ -17,31 +17,31 @@ export default function Home() {
       </section>
 
       {/* Services */}
-{/* Why Choose Us */}
-<section className="py-20 px-6">
-  <h2 className="text-3xl font-semibold text-center mb-12">
-    Why Choose Us
-  </h2>
+      {/* Why Choose Us */}
+      <section className="py-20 px-6">
+        <h2 className="text-3xl font-semibold text-center mb-12">
+          Why Choose Us
+        </h2>
 
-  <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto text-center">
-    <div>
-      <h3 className="font-semibold mb-2">Experienced Team</h3>
-      <p className="text-gray-600">Skilled professionals with years of hands-on experience.</p>
-    </div>
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto text-center">
+          <div>
+            <h3 className="font-semibold mb-2">Experienced Team</h3>
+            <p className="text-gray-600">Skilled professionals with years of hands-on experience.</p>
+          </div>
 
-    <div>
-      <h3 className="font-semibold mb-2">Transparent Pricing</h3>
-      <p className="text-gray-600">No hidden fees. Clear estimates from day one.</p>
-    </div>
+          <div>
+            <h3 className="font-semibold mb-2">Transparent Pricing</h3>
+            <p className="text-gray-600">No hidden fees. Clear estimates from day one.</p>
+          </div>
 
-    <div>
-      <h3 className="font-semibold mb-2">On-Time Delivery</h3>
-      <p className="text-gray-600">We respect your schedule and deliver as promised.</p>
-    </div>
-  </div>
-</section>
+          <div>
+            <h3 className="font-semibold mb-2">On-Time Delivery</h3>
+            <p className="text-gray-600">We respect your schedule and deliver as promised.</p>
+          </div>
+        </div>
+      </section>
 
-{/* Final CTA
+      {/* Final CTA
 <section className="bg-black text-white text-center py-16 px-6">
   <h2 className="text-3xl font-semibold mb-6">
     Ready to Start Your Project?
@@ -51,47 +51,79 @@ export default function Home() {
   </button>
 </section> */}
 
-{/* Contact Section */}
-<section className="py-20 px-6 bg-gray-50">
-  <h2 className="text-3xl font-semibold text-center mb-12">
-    Contact Us
-  </h2>
+      {/* Contact Section */}
+      <section className="py-20 px-6 bg-gray-50">
+        <h2 className="text-3xl font-semibold text-center mb-12">
+          Contact Us
+        </h2>
 
-  <form className="max-w-2xl mx-auto grid gap-6">
-    <input
-      type="text"
-      placeholder="Full Name"
-      className="border px-4 py-3 rounded-md"
-    />
+        <form className="max-w-2xl mx-auto grid gap-6">
+          <input
+            type="text"
+            placeholder="Full Name"
+            className="border px-4 py-3 rounded-md"
+          />
 
-    <input
-      type="tel"
-      placeholder="Phone Number"
-      className="border px-4 py-3 rounded-md"
-    />
+          <input
+            type="tel"
+            placeholder="Phone Number"
+            className="border px-4 py-3 rounded-md"
+          />
 
-    <select className="border px-4 py-3 rounded-md">
-      <option>Select Service</option>
-      <option>Kitchen Renovation</option>
-      <option>Bathroom Upgrade</option>
-      <option>Flooring Installation</option>
-      <option>Painting & Finishing</option>
-    </select>
+          <select className="border px-4 py-3 rounded-md">
+            <option>Select Service</option>
+            <option>Kitchen Renovation</option>
+            <option>Bathroom Upgrade</option>
+            <option>Flooring Installation</option>
+            <option>Painting & Finishing</option>
+          </select>
 
-    <textarea
-      placeholder="Tell us about your project"
-      rows={4}
-      className="border px-4 py-3 rounded-md"
-    />
+          <textarea
+            placeholder="Tell us about your project"
+            rows={4}
+            className="border px-4 py-3 rounded-md"
+          />
 
-    <button
-      type="submit"
-      className="bg-black text-white py-3 rounded-md hover:bg-gray-800 transition"
-    >
-      Send Request
-    </button>
-  </form>
-</section>
+          <button
+            type="submit"
+            className="bg-black text-white py-3 rounded-md hover:bg-gray-800 transition"
+          >
+            Send Request
+          </button>
+        </form>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-20 px-4">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-3xl font-semibold mb-12">
+            What Our Clients Say
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="p-6 border rounded-lg">
+              <p className="text-gray-600 mb-4">
+                “Professional, reliable, and on time. Our kitchen looks amazing!”
+              </p>
+              <span className="font-semibold">— Sarah M.</span>
+            </div>
+
+            <div className="p-6 border rounded-lg">
+              <p className="text-gray-600 mb-4">
+                “Clear pricing and excellent communication from start to finish.”
+              </p>
+              <span className="font-semibold">— Daniel R.</span>
+            </div>
+
+            <div className="p-6 border rounded-lg">
+              <p className="text-gray-600 mb-4">
+                “Highly recommend for any renovation project.”
+              </p>
+              <span className="font-semibold">— Emily T.</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </main>
   );
